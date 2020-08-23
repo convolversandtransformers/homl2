@@ -6,7 +6,7 @@
 
 ### Hard Voting Classifier: 
 
-**Keywords**: Weak & Strong Learners
+**Keywords:** Weak & Strong Learners
 
 - Enough weak learners with sufficient diversity can be stacked together, the voting classifier becomes a strong learner.
 - Works on the **law of large numbers**; more predictors more steadier outcome.
