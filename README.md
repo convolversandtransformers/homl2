@@ -12,4 +12,4 @@ For code examples followed in the book, you can setup the repository by followin
 If you'd like to contribute, you can create a PR. We'll shortly update a document on how to PR with a format for uploading notes to anyone interested.
 
 ## Our Contributors
-[@vrindaprabhu](https://github.com/vrindaprabhu)
+TBD
