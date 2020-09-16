@@ -8,10 +8,10 @@ The following are the main steps involved in raising a PR. There is TL;DR sectio
 Feel free to skip the details to have a quick look there!
 
 ### Step-1 
-**Fork** the main repository to your personal Github account.![Forking the main repo](assets/pr_doc/Fork.png)
+**Fork** the main repository to your personal Github account.![Forking the main repo](assets/contributing/fork.png)
 
 The repo will be now available in your namespace.
-![Foked repo](assets/pr_doc/Forked.png)
+![Foked repo](assets/contributing/forked.png)
 
 ### Step-2
 Now, git clone the repository locally for development.
@@ -39,17 +39,17 @@ Finally, push to reflect it remotely.
 ***Example:***  `git push -u origin vp_notes`
 
 Since, I am using a *https* login, I get prompted to enter my credentials. Also, push status is also displayed.
-![Push Status](assets/pr_doc/Push.png)
+![Push Status](assets/contributing/push.png)
 
 ### Step-8
 In the forked repo, there will be 2 branches now. Also, in the created branch, the new file will be reflected.
-![Local Branch](assets/pr_doc/LocalBranch.png)
+![Local Branch](assets/contributing/localbranch.png)
 
 This will also be notified in the main repo.
-![Branch changes in main repo](assets/pr_doc/MainBranch.png)
+![Branch changes in main repo](assets/contributing/mainbranch.png)
 
 Use the GUI to happily compare and create a pull request!
-![Raise PR](assets/pr_doc/PR.png)
+![Raise PR](assets/contributing/pr.png)
 
 
 **And we are done!**
