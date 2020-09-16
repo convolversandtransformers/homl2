@@ -1,9 +1,11 @@
-﻿# Creating a PR - Short Guide
+# Creating a PR - Short Guide
 
 This document lists out the steps required to contribute notes and/or even some examples _(code snippets, scripts, gists etc,. )_ to **homl2** repository.
 
 ## Main Steps
-The following are the main steps involved in raising a PR. There is TL;DR section for busy folks at the end of the doc. Feel free to skip the details to have a quick look there!
+The following are the main steps involved in raising a PR. There is TL;DR section for busy folks at the end of the doc. 
+  
+Feel free to skip the details to have a quick look there!
 
 ### Step-1 
 **Fork** the main repository to your personal Github account.![Forking the main repo](assets/pr_doc/Fork.png)
