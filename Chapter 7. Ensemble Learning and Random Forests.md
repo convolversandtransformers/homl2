@@ -1,4 +1,4 @@
-# Chapter 7: Ensemble Learning and Random Forests
+# Chapter 7. Ensemble Learning and Random Forests
 
 **Keywords:** Bagging, Boosting, Stacking
 
@@ -129,5 +129,3 @@ Keywords: GBRT (Gradient Boosting Regression Trees)
   - Finally after optimizing the layers on separate data subsets, the models/layers of models are stacked together to form a stacked ensemble.
 
   - This logic is extendable to multiple layers. However, if you want to create a stack of 20 or so layers/models put together with enough data to train, then why not just use an optimized neural network instead of all this unnecessary work. Be logical :P
-
-    
