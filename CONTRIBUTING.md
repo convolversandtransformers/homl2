@@ -2,7 +2,7 @@
 
 Here's a short tutorial listing out the simplest method to contribute notes _(code snippets, scripts, gists, etc.)_ to **homl2** repository. The following are the main steps involved in raising a PR.  
 
-For the TL;DR version jump to the bottom, but make note of **step 3**.
+There is TL;DR section for busy folks at the end of the doc. Feel free to skip the details to have a quick look there, but make note of **step 3**.
 
 ### 1. Fork the repository
 **Fork** the main repository to your personal **GitHub** account, like in the image shown below. Click on the **Fork** button at the top right corner *(highlighted in blue)* of the repository.
