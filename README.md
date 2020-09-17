@@ -9,4 +9,7 @@ The book is an amazing resource in an of itself. Please use the [book]() for ref
 For code examples followed in the book, you can setup the repository by following instructions [here](https://github.com/ageron/handson-ml2).
 
 ## Contribution
-If you'd like to contribute, you can create a PR. We'll shortly update a document on how to PR with a format for uploading notes to anyone interested.
+If you'd like to contribute, you can create a PR. Follow the steps in our contributing doc [here](https://github.com/convolversandtransformers/homl2/blob/master/CONTRIBUTING.md) written by [@vrindaprabhu](https://github.com/vrindaprabhu). 
+
+We'll shortly update a document on the format for uploading notes to anyone interested.
+Till then you can follow the format of the current notes in the repo.
