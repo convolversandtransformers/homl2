@@ -32,7 +32,7 @@ Clustering has many use-cases. Here's some of them discussed briefly:
 
 For example, take the following un-labelled dataset.
 
-<img src="F:\technical_projects\convolvers_and_transformers\homl2\assets\ch9\k_means_data.png" alt="image-20201004171905278" style="zoom:80%;" />
+<img src="assets/ch9/k_means_data.png" alt="image-20201004171905278" style="zoom:80%;" />
 
 The K-Means algorithm is pretty straightforward. 
 
@@ -41,7 +41,7 @@ The K-Means algorithm is pretty straightforward.
 
 If you trained a K-Means cluster on this dataset you'll get an output similar to this.
 
-<img src="F:\technical_projects\convolvers_and_transformers\homl2\assets\ch9\voronoi_tessellation.png" alt="image-20201004172030076" style="zoom:80%;" />
+<img src="assets/ch9/voronoi_tessellation.png" alt="image-20201004172030076" style="zoom:80%;" />
 
 **Note:** 
 
@@ -103,7 +103,7 @@ For the mini-batch version of K-Means you'll have to switch from `from sklearn.c
 
 For the mini-batch version, the `inertia` is slightly worse, however, the speedup more than enough makes up for it.
 
-![image-20201004182120364](F:\technical_projects\convolvers_and_transformers\homl2\assets\ch9\mini_batch_k_means.png)
+![image-20201004182120364](assets/ch9/mini_batch_k_means.png)
 
 #### Finding Optimal # of Clusters
 
@@ -126,7 +126,7 @@ This value is usually used as a metric for evaluating different hyper-parameters
 
 Inertia decreases with increase in $k$. So, it's usually a **poor** metric for finding the no. of clusters. However, there's a coarse way to use inertia to solve this, by choosing the value of $k$ corresponding to greatest change in inertia. In the below example, this corresponds to **4.** 
 
-![image-20201004185411909](F:\technical_projects\convolvers_and_transformers\homl2\assets\ch9\inertia_vs_num_clusters.png)
+![image-20201004185411909](assets/ch9/inertia_vs_num_clusters.png)
 
 But, in general it's a poor metric. When in doubt switch to **silhouette**.
 
