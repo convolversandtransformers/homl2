@@ -83,17 +83,19 @@ In a nutshell, **Regular PCA** (actually randomized PCA since svd_solver="random
 
    Normal PCA
 
-    from sklearn.decomposition import PCA
-    
-    pca = PCA(n_components = 2)
-    pca.components_.T[:, 0] #The *components* attribute in this example defines the first principal component
-    pca.explained_variance_ratio_ #ratio indicates the proportion of the dataset’s variance that lies along each principal component.
-    pca = PCA(n_components=0.95) #indicates the ratio of variance that is to be preserved
-    
-    ##PCA for Compression
-    pca = PCA(n_components = 154)
-    X_reduced = pca.fit_transform(X_train)
-    X_recovered = pca.inverse_transform(X_reduced) 
+```python3
+from sklearn.decomposition import PCA
+
+pca = PCA(n_components = 2)
+pca.components_.T[:, 0] #The *components* attribute in this example defines the first principal component
+pca.explained_variance_ratio_ #ratio indicates the proportion of the dataset’s variance that lies along each principal component.
+pca = PCA(n_components=0.95) #indicates the ratio of variance that is to be preserved
+
+##PCA for Compression
+pca = PCA(n_components = 154)
+X_reduced = pca.fit_transform(X_train)
+X_recovered = pca.inverse_transform(X_reduced) 
+```
 
   Randomized PCA  
 
