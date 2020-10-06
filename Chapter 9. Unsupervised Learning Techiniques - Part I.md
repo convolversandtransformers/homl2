@@ -157,13 +157,13 @@ A silhouette score of ranges from -1 to +1. A silhouette score near;
 - **0** signifies overlapping clusters. 
 - **+1** signifies correct assignment.
 
-![image-20201006234302226](C:\Users\Jagan\AppData\Roaming\Typora\typora-user-images\image-20201006234302226.png)
+![image-20201006234302226](assets/ch9/silhouette_plot.png)
 
 When used as metric for clustering, it gives a clear picture that **4** is the ideal choice, with **5** close behind and other $k$ values being even poorer.
 
 Let's go one step ahead, by plotting the *silhouette diagram*.
 
-<img src="C:\Users\Jagan\AppData\Roaming\Typora\typora-user-images\image-20201006235221945.png" alt="image-20201006235221945" style="zoom:80%;" />
+<img src="assets/ch9/silhouette_diagram.png" alt="image-20201006235221945" style="zoom:80%;" />
 
 The _silhouette diagram_ consists of **knife-shaped** representation per cluster. The width (shorter side) of the knife blade corresponds to the # of samples in that cluster and the length (longer side) indicates the silhouette score per sample arranged in descending order (hence the _knife_ shape). The red dotted line indicates the combined silhouette score of all clusters.
 
